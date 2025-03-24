@@ -48,16 +48,11 @@
 </table>
 
 # How to Install
-
-On macOS (and Linux), run following command:
+install cask from homebrew and cbonsai from macports before install
+On macOS run following command:
 ```bash
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ZhongXiLu/dotfiles/master/init.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/SuperAviation001/macdotfiles/refs/heads/main/init.sh)"
 ```
-On Windows, install programs with [winget](https://winget.run/):
-```bash
-winget import --accept-package-agreements --accept-source-agreements winget.json
-```
-
 As per usual, be wary that these are my dotfiles and not everything may be suitable to your liking, so be careful if you plan on running the command above.
 
 # How to Customise
