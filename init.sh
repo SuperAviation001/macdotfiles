@@ -15,7 +15,7 @@ if ! brew list yadm >/dev/null; then
 fi
 
 if [ ! -f "$HOME/.config/yadm/bootstrap" ]; then
-    yadm clone https://github.com/ZhongXiLu/dotfiles.git --no-bootstrap
+    yadm clone https://github.com/ZhongXiLu/macdotfiles.git --no-bootstrap
 fi
 
 yadm bootstrap
