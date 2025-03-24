@@ -4,11 +4,6 @@ set -eu
 
 USER=$(id -un)
 
-if [[ "$SYSTEM_TYPE" = "Darwin" ]] && [ ! xcode-select --print-path &>/dev/null ]; then
-    xcode-select --install
-    echo "Xcode cli tools ✅"
-fi
-
 if [ ! command -v brew >/dev/null 2>&1 ]; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     echo "Homebrew ✅"
